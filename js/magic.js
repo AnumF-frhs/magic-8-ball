@@ -1,3 +1,5 @@
+alert ('Welcome! d^-^b');
+
 // STEP 1: Select the button from the page
 // TODO: Use document.getElementById to select the button
 let askButton = document.getElementById ("askBtn");
@@ -77,5 +79,8 @@ function askQuestion() {
   // STEP 9: Display the final answer on the page
   // TODO: Select the answerText element and display the answer variable
   document.getElementById("answerText").textContent = answer;
+
+  
+  
 
 }
