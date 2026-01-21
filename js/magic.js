@@ -47,7 +47,7 @@ function askQuestion() {
   switch (randomNum) {
       
       case 1: 
-          answer = "A definite yes!"
+          answer = "Heck ya!"
       break;
       
       case 2: 
