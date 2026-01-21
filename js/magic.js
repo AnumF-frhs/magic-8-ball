@@ -24,7 +24,7 @@ function askQuestion() {
   if ( question === "") {
 
     // TODO: Display an error message in the answerText element
-    document.getElementById("answerText").textContent = "Error; You must write a question.";
+    document.getElementById("answerText").textContent = "Error; You must write a question.😢";
 
     // NOTE: This stops the function so no other code runs
     return;
@@ -47,27 +47,27 @@ function askQuestion() {
   switch (randomNum) {
       
       case 1: 
-          answer = "Heck ya!"
+          answer = "Heck ya!☺️ "
       break;
       
       case 2: 
-          answer = "ABSolutely Not!"
+          answer = "ABSolutely Not!☹️"
       break;
       
       case 3: 
-          answer = "Probably?"
+          answer = "Probably?🤔"
       break;
       
       case 4: 
-          answer = "I don't know, to be honest..."
+          answer = "I don't know, to be honest...🙄"
       break;
       
       case 5: 
-          answer = "Ask me again!"
+          answer = "Most likely not...😗"
       break;
       
       default: 
-          answer = "You must choose between numbers 1-5..."
+          answer = "Oops! An error has occured. Ask again.🙂‍↔️"
     
       
       
