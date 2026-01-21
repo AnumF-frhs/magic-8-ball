@@ -1,5 +1,5 @@
 :root {
-  --primary: #000000;
+  --primary: #ffffff;
   --secondary: #FFFFFF;
   --accent: #73acf7;
   --shadow: 8px 8px 0px var(--primary);
@@ -50,7 +50,7 @@ h1 {
   font-size: 28px;
   font-weight: 700;
   text-align: center;
-  text-shadow: #73acf7;
+  text-shadow: #fdfdfd;
 }
 
 .input-group {
